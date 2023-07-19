@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: okok
+  redis:
+    host: localhost
+    port: 6379
+    password:
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+pagehelper:
+  helper-dialect: mysql #当前分页的数据库是mysql
+  reasonable: true #分页参数合理化
